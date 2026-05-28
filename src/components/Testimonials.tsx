@@ -1,6 +1,8 @@
 import { useState, useRef, MouseEvent, TouchEvent } from 'react';
 import { Star, Quote, Heart, MapPin, Grid } from 'lucide-react';
 import { TESTIMONIAL_ITEMS } from '../data';
+import testimonialsImgSrc from "../assets/images/clinic_team_1779979713717.png";
+
 
 export default function Testimonials() {
   // Before / After Slider Position State (Percentage: 0 - 100)
@@ -170,7 +172,7 @@ export default function Testimonials() {
                   <p className="font-sans text-xs font-bold text-slate-400 uppercase tracking-widest pl-0.5">Meet the Practice</p>
                   <div className="relative rounded-2xl overflow-hidden aspect-[4/3] border border-white/10 bg-slate-800">
                     <img
-                      src="/src/assets/images/clinic_team_1779979713717.png"
+                      src={testimonialsImgSrc}
                       alt="BlueWave Dental Clinic practitioner team"
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover"
