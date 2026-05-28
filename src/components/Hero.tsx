@@ -2,6 +2,7 @@ import { MapPin, Heart, Calendar, ArrowRight, Star, HeartHandshake, ShieldCheck,
 import heroImgSrc from "../assets/images/dentist_hero_1779979666708.png";
 
 export default function Hero() {
+  console.log(heroImgSrc);
   return (
     <section id="home" className="relative pt-28 md:pt-36 pb-20 md:pb-28 bg-gradient-to-b from-blue-50/50 via-sky-50/20 to-white overflow-hidden">
       {/* Background Decorative Ripples */}
