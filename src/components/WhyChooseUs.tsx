@@ -1,5 +1,6 @@
 import { UserCheck, Cpu, HeartHandshake, FileText, Waves, LucideIcon } from 'lucide-react';
 import { BENEFIT_ITEMS } from '../data';
+import whyChooseUsSrc from "../assets/images/clinic_reception_1779979690463.png";
 
 const iconMap: Record<string, LucideIcon> = {
   UserCheck: UserCheck,
@@ -56,7 +57,7 @@ export default function WhyChooseUs() {
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-[32px] overflow-hidden border-8 border-white shadow-xl aspect-[16/10] bg-slate-100">
               <img
-                src="/src/assets/images/clinic_reception_1779979690463.png"
+                src={whyChooseUsSrc}
                 alt="BlueWave Dental Clinic luxury reception desk and waiting lounge"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
