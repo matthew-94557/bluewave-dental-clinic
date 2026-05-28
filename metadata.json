@@ -1,0 +1,6 @@
+{
+  "name": "BlueWave Dental Clinic",
+  "description": "Premium landing page for BlueWave Dental Clinic in San Diego, featuring advanced gentle care solutions, cosmetic dentistry, clear aligners, and real-time appointment booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
