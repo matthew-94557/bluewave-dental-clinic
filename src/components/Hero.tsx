@@ -1,4 +1,5 @@
 import { MapPin, Heart, Calendar, ArrowRight, Star, HeartHandshake, ShieldCheck, Sparkles } from 'lucide-react';
+import heroImgSrc from "../assets/images/dentist_hero_1779979666708.png";
 
 export default function Hero() {
   return (
@@ -103,7 +104,7 @@ export default function Hero() {
               {/* Main Dentist Image inside curved premium container */}
               <div className="relative rounded-[40px] overflow-hidden border-[12px] border-white shadow-xl aspect-square w-full bg-slate-100">
                 <img
-                  src="/src/assets/images/dentist_hero_1779979666708.png"
+                  src="heroImgSrc"
                   alt="Dr. Alexander Chen, lead dentist at BlueWave Dental Clinic"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
