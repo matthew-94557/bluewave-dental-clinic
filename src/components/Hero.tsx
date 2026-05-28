@@ -104,7 +104,7 @@ export default function Hero() {
               {/* Main Dentist Image inside curved premium container */}
               <div className="relative rounded-[40px] overflow-hidden border-[12px] border-white shadow-xl aspect-square w-full bg-slate-100">
                 <img
-                  src="{heroImgSrc}"
+                  src={heroImgSrc}
                   alt="Dr. Alexander Chen, lead dentist at BlueWave Dental Clinic"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
